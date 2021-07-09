@@ -13,7 +13,7 @@ from flask import Flask, request
 from flask import Flask, request, jsonify, render_template
 
 app=Flask(__name__)
-pickle_in = open("C:/Users/lenovo/Desktop/edu/Semester_2/AI_Enterprise/Lab4/fish.pkl" ,"rb")
+pickle_in = open("fish.pkl" ,"rb")
 classifier=pickle.load(pickle_in)
 
 @app.route('/')
