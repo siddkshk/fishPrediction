@@ -1,1 +1,1 @@
-web: gunicorn FlaskApp:app
+web: gunicorn fishFlask:app
